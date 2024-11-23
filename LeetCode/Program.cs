@@ -29,9 +29,11 @@ namespace LeetCode
             {
                 Console.WriteLine();
                 group.ToList().ForEach(_ => Console.Write(_ + " "));
-
+                Console.WriteLine();
             });
 
+            var input = "Was it a car or a cat I saw?";
+            Console.WriteLine($"Input {input} is palindrom: {IsPalindrome.IsValidPalindrome(input)}");
             Console.ReadLine();
         }
     }
